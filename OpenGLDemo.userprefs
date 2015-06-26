@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="iOS/OpenGLDemo.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="Android.03a5ecd8437dd80f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenGLDemo/OpenGLDemo.cs">
+    <Files>
+      <File FileName="OpenGLDemo/OpenGLDemo.cs" Line="267" Column="4" />
+      <File FileName="Droid/MainActivity.cs" Line="22" Column="28" />
+      <File FileName="iOS/AppDelegate.cs" Line="16" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
