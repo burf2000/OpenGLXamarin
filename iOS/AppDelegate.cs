@@ -19,7 +19,7 @@ namespace OpenGLDemo.iOS
 			Xamarin.Calabash.Start();
 			#endif
 
-			LoadApplication (new App ());
+			LoadApplication (new App2 ());
 
 			return base.FinishedLaunching (app, options);
 		}

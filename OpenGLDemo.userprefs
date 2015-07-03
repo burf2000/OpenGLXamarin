@@ -1,13 +1,14 @@
-﻿<Properties StartupItem="iOS/OpenGLDemo.iOS.csproj">
+﻿<Properties StartupItem="Droid/OpenGLDemo.Droid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.3" />
   <MonoDevelop.Ide.Workbench ActiveDocument="OpenGLDemo/OpenGLCube.cs">
     <Files>
-      <File FileName="OpenGLDemo/OpenGLCube.cs" Line="376" Column="9" />
-      <File FileName="../../Dropbox/Xamarin/GLDemo/GLDemo/App.cs" Line="199" Column="25" />
+      <File FileName="OpenGLDemo/OpenGLCube.cs" Line="384" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/burfies1/BURF/OpenGLXamarin/OpenGLDemo/OpenGLCube.cs" line="364" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

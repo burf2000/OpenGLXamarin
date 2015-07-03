@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)OpenGLDemo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OpenGLCube.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Shaders\" />
@@ -17,5 +18,8 @@
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Shaders\Vertex.glsl" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Shaders\Fragment.glsl" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Shaders\SimpleFragment.glsl" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Shaders\SimpleVertex.glsl" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)mario.png" />
   </ItemGroup>
 </Project>

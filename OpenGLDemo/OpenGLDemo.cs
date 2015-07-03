@@ -132,28 +132,6 @@ namespace OpenGLDemo
 				new Vector4(0.0f, 0.0f, 1.0f, 1.0f)
 			};
 
-			// Vertex shader
-			string vertexShaderSrc = @"
-            uniform mat4 uMVPMatrix;
-            attribute vec4 vColor;
-            attribute vec4 vPosition; 
-            varying vec4 color;
-            void main()   
-            {              
-                color = vColor;
-                gl_Position = uMVPMatrix * vPosition;
-            }";
-
-
-			// Fragment shader
-			string fragmentShaderSrc = @"
-            varying lowp vec4 color;
-            void main (void)
-            {
-                gl_FragColor = color;
-            }
-            ";
-
 			uint vertexShader = CompileShader ("Vertex", ShaderType.VertexShader);
 			uint fragmentShader = CompileShader ("Fragment", ShaderType.FragmentShader);
 
@@ -277,5 +255,6 @@ namespace OpenGLDemo
 			GL.DisableVertexAttribArray (mColorHandle);
 		}
 	}
+
 }
 
